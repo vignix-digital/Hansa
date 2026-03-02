@@ -168,8 +168,10 @@ body {
 @media (max-width: 477px) {
   #hero {
     background-attachment: scroll;
+    height: 50vh;
     padding: 0 20px;
-    background-position: 55%;
+    background-position: center;
+    background-size: cover;
   }
 }
 
