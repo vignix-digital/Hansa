@@ -168,10 +168,33 @@ body {
 @media (max-width: 477px) {
   #hero {
     background-attachment: scroll;
-    height: 50vh;
-    padding: 0 20px;
+    height: 60vh;
+    padding: 40px 20px;
     background-position: center;
     background-size: cover;
+    justify-content: flex-start;
+  }
+
+  #hero h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  #hero p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  #hero button {
+    padding: 10px 50px 10px 45px;
+    font-size: 13px;
   }
 }
 
